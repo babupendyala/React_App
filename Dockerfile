@@ -1,4 +1,5 @@
 FROM node:latest
+MAINTAINER <Idna Solutions>
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
